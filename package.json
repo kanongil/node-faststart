@@ -1,0 +1,22 @@
+{
+  "name": "faststart",
+  "description": "Pseudo-streaming enabler of Quicktime and MP4 files.",
+  "version": "0.1.0",
+  "keywords": ["fast", "start", "media", "stream", "streaming"],
+  "author": "Gil Pedersen <gpdev@gpost.dk>",
+  "license": "GPLv3",
+  "main": "./index",
+  "engines": { "node": ">= 0.8.0" },
+  "dependencies": {
+    "async": "*"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "directories": {
+    "lib": "./lib"
+  }
+}
