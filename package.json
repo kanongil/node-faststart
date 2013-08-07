@@ -2,13 +2,21 @@
   "name": "faststart",
   "description": "Pseudo-streaming enabler of Quicktime and MP4 files.",
   "version": "0.1.0",
-  "keywords": ["fast", "start", "media", "stream", "streaming"],
+  "keywords": [
+    "fast",
+    "start",
+    "media",
+    "stream",
+    "streaming"
+  ],
   "author": "Gil Pedersen <gpdev@gpost.dk>",
-  "license": "GPLv3",
-  "main": "./index",
-  "engines": { "node": ">= 0.8.0" },
+  "license": "BSD",
+  "main": "faststart.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
   "dependencies": {
-    "async": "*"
+    "async": "~0.2.9"
   },
   "devDependencies": {
     "mocha": "*"
@@ -17,6 +25,13 @@
     "test": "mocha"
   },
   "directories": {
-    "lib": "./lib"
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kanongil/node-faststart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kanongil/node-faststart/issues"
   }
 }
