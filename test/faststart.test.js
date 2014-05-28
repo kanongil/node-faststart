@@ -4,7 +4,7 @@ var fs = require('fs'),
     stream = require('stream'),
     crypto = require("crypto"),
     assert = require("assert"),
-    faststart = require('../lib/faststart');
+    faststart = require('../faststart');
 
 var fixtureDir = path.join(__dirname, 'fixtures');
 
