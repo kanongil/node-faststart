@@ -1,7 +1,7 @@
 {
   "name": "faststart",
   "description": "Pseudo-streaming enabler of Quicktime and MP4 files.",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "keywords": [
     "fast",
     "start",
